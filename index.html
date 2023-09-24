@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marriage Checker</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+</head>
+<body>
+
+    <section class="container my-5">
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <div class="card shadow">
+              <div class="card-header">
+                <h3 class="text-uppercase">Marriage age checker</h3>
+              </div>
+  
+              <div class="card-body">
+                <div class="msg"></div>
+                <form id="age_checker">
+                  <div class="my-3">
+                    <label>Your Name</label>
+                    <input class="form-control" type="text" name="name" />
+                  </div>
+  
+                  <div class="my-3">
+                    <label>Your Age</label>
+                    <input class="form-control" type="text" name="age" />
+                  </div>
+  
+                  <div class="my-3">
+                    <label>Your Gender</label>
+                    <br />
+                    <label>
+                      <input type="radio" name="gender" value="Male" />
+                      Male
+                    </label>
+                    <label>
+                      <input type="radio" name="gender" value="Female" />
+                      Female
+                    </label>
+                  </div>
+  
+                  <div class="my-3">
+                    <input class="btn btn-primary" type="submit" value="Check" />
+                  </div>
+                </form>
+              </div>
+  
+              <div class="card-footer">
+                <div class="msg_long"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./app/function.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
